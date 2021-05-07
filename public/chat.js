@@ -1,4 +1,6 @@
-var socket = io.connect(`http://localhost:4005${process.env.PORT}`);
+var socket = io.connect(`http://localhost:${location.port}`);
+// var HOST = location.origin.replace(/^http/, "ws");
+// var socket = new WebSocket(HOST);
 
 //Dom Query
 var message = document.getElementById("message"),
