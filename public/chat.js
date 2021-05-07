@@ -1,4 +1,4 @@
-var socket = io.connect(`http://localhost:${location.port}`);
+var socket = io.connect(`https://chat-app-by-jay.herokuapp.com/`);
 // var HOST = location.origin.replace(/^http/, "ws");
 // var socket = new WebSocket(HOST);
 
